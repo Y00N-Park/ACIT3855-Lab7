@@ -1,0 +1,6 @@
+RECEIVER :: DEBUG - Received buy event with trace id ab08d62d-f9a4-4d65-929a-8f6a089407c5
+RECEIVER :: DEBUG - PRODUCER::producing buy event
+RECEIVER :: DEBUG - b'{"type": "buy", "datetime": "08-02-23 16:01:46", "payload": {"buy_id": "d290f1ee-6c54-4b01-90e6-d701748f0851", "buy_qty": 1, "item_name": "Item 1", "item_price": 19.99, "trace_id": "ab08d62d-f9a4-4d65-929a-8f6a089407c5"}}'
+RECEIVER :: DEBUG - Received sell event with trace id 0fe7bc12-8065-4f74-865f-4de7ab3aa238
+RECEIVER :: DEBUG - PRODUCER::producing sell event
+RECEIVER :: DEBUG - {"type": "sell", "datetime": "08-02-23 16:19:17", "payload": {"item_name": "Item 1", "item_price": 19.99, "sell_id": "d290f1ee-6c54-4b01-90e6-d701748f0851", "sell_qty": 1, "trace_id": "0fe7bc12-8065-4f74-865f-4de7ab3aa238"}}

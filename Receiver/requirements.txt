@@ -1,0 +1,5 @@
+connexion
+swagger-ui-bundle
+datetime
+pykafka
+kafka-python
